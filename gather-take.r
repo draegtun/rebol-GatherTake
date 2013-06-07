@@ -1,12 +1,13 @@
 Rebol [
     Title: "Gather-Take series builder"
+    Name: gather-take
     File: %gather-take.r
-    Purpose: ""
+    Purpose: "flexible/lazy way to build series"
     Author: "Barry Walsh (Draegtun)"
-    Home: "Put github page"
-    Date: 2-May-2013
-    Version: 0.1.0
-    Type: 'module
+    Home: https://github.com/draegtun/rebol-GatherTake
+    Date: 7-June-2013
+    Version: 0.1.1
+    Type: module
     Exports: [gather]
 ]
 

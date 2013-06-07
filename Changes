@@ -1,0 +1,9 @@
+Revision history for rebol-GatherTake
+
+0.1.1   7-June-2013
+        - Refactored
+        - Modularized
+
+0.1.0   2-May-2013    
+        - big bang!
+        - All changes above are by Barry Walsh (draegtun) unless otherwise attributed.
