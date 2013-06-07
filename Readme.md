@@ -31,5 +31,5 @@
 
 Copyright 2013 Barry Walsh (Draegtun Systems Ltd | http://www.draegtun.com), all rights reserved.
 
-This program is free software; you can redistribute it and/or modify it under the same terms provided
-in the Artisitic 2.0 License - http://opensource.org/licenses/Artistic-2.0
+This program is free software; you can redistribute it and/or modify it under the same terms described
+in the Artistic 2.0 License - http://opensource.org/licenses/Artistic-2.0
