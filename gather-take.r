@@ -4,7 +4,7 @@ Rebol [
     Purpose: ""
     Author: "Barry Walsh (Draegtun)"
     Home: "Put github page"
-    Date: 18-Apr-2013
+    Date: 2-May-2013
     Version: 0.1.0
     Type: 'module
     Exports: [gather]
@@ -33,16 +33,3 @@ gather: func [block /local coll gather-take gather-count change-all-takes] [
     coll
 ]
 
-;gather [print "hello" take [and take [take2 etake nothing here [take here]]] take]
-
-a: gather [
-    a: "test"
-    take uppercase a
-    for n 1 2 1 [
-        take n
-        for coll 10 15 1 [take coll + n]
-    ]
-    if true [take "END"]
-]
-
-probe a
