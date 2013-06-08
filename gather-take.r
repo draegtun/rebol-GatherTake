@@ -11,10 +11,24 @@ Rebol [
     Exports: [gather]
 ]
 
-gather: func [block /local coll gather-take gather-count change-all-takes] [
+gather: func [
+  {
+    Lazy(ish) series builder - GATHER series by take(ing) THIS 
+
+    code examples:
+
+      ; simple
+      even-nums:  gather [for n 1 100 1 [if even? n [take n]]]
+
+      ; bit more practical
+      series: gather [foreach this from-series [if some-cond? this [take this + 1]]]
+
+  }
+    block [block!]
+    /local coll gather-take change-all-takes
+  ][
     coll: copy []
     gather-take: func [x] [append coll x]
-    gather-count: 0
 
     ; :block <- change all 'take to our gather-take func 
     ; (recurse down thru all nested blocks)
