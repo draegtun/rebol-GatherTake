@@ -36,8 +36,12 @@ t4: gather [
 ]
 
 
-;; test 5 TBD - check /only (appending lists)
-;; test 6 - check calling function with gather causes no probs
+;; test 5 - /with refinement
+e5: [100 200 300]
+t5: gather/with [for n 100 300 100 [keep n]] 'keep
+
+;; test 6 TBD - check /only (appending lists)
+;; test 7 - check calling function with gather causes no probs
 
 ;; do tests
 tests: reduce [
@@ -45,6 +49,7 @@ tests: reduce [
     e2 = t2
     e3 = t3
     e4 = t4
+    e5 = t5
 ]
 
 failed-tests: map-each n tests [n = false]
