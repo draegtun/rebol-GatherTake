@@ -5,8 +5,8 @@ Rebol [
     Purpose: "flexible/lazy way to build series"
     Author: "Barry Walsh (Draegtun)"
     src: https://github.com/draegtun/rebol-GatherTake
-    Date: 7-June-2013
-    Version: 0.1.1
+    Date: 8-June-2013
+    Version: 0.1.2
     Type: module
     Exports: [gather]
 ]

@@ -1,0 +1,17 @@
+
+* Lazy refinement ??
+
+    my $x = gather {
+      take 5;
+    }
+    say $x;     # 5
+
+ Easy todo?
+
+* Examples
+
+ - Including using r3 take
+
+* Also refinement to change 'take name?  [DONE]
+
+

@@ -1,5 +1,8 @@
 Revision history for rebol-GatherTake
 
+0.1.2   8-June-2013
+        - Added /WITH refinement (rename 'TAKE to something else)
+
 0.1.1   7-June-2013
         - Refactored
         - Modularized

@@ -12,6 +12,8 @@
 
 * Lesson on working around caveats (see next bit)
 
+* Look into packaging and test mini-suite (methinks)
+
 
 ## Caveats
 
@@ -22,9 +24,16 @@
 
 * collect/keep functions from Power-mezz: http://www.rebol.it/power-mezz/mezz/collect.r
 
-* Different approach used collect/keep & gather/take
+* Different approach used between collect/keep & gather/take
+
+* And since implemented I've noticed that Rebol3 has collect/keep also!! :(
+
+* ... and t uses approach closer but not identical to mine :)
 
 * Pro & Cons of different approaches?
+
+* Perl6 links - http://perlcabal.org/syn/S04.html#The_gather_statement_prefix | http://en.wikibooks.org/wiki/Perl_6_Programming/Lazy_Lists_and_Feeds#Gather_and_Take
+
 
 
 ## COPYRIGHT AND LICENCE
